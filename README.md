@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/equalizer-responsive-landing-page-using-html-and-css-flex-and-grid-FRpEI0lt1m)
 - [Github Pages Live Demo](https://jorgemunozcerda.github.io/fm-newbie-equalizer-landing-page/)
 
 ## My process
