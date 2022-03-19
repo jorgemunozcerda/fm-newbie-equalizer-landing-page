@@ -334,4 +334,95 @@ footer .footer-links a .social-logo:hover {
         justify-self: end;
     }
 }
-/* Change at 650px */
+
+@media screen and (max-width: 650px) {
+    body {
+		margin: 40px 0 80px 0;
+		gap: 64px;
+	}
+
+    .background-container .background-picture img {
+        width: 75.04%;
+        aspect-ratio: 281 / 480;
+        left: 42.4%;
+    }
+
+	.background-container .background-pattern {
+		display: none;
+	}
+
+	h1 {
+		font-size: 40px;
+		line-height: 48px;
+		letter-spacing: -0.4545453px;
+	}
+
+	h2 {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.body1 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+    header {
+        margin-left: 6.4%;
+    }
+
+	main {
+		gap: 68px;
+        margin: 0;
+	}
+
+	.intro-description {
+		margin: 0 6.4% 0 6.4%;
+        width: 87.2%;
+		gap: 20px;
+	}
+
+	.intro-description .body1 {
+		width: 100%;
+	}
+
+	.middle-content {
+		flex-direction: column;
+        gap: 48px;
+        align-items: center;
+	}
+
+	.middle-content .middle-background {
+		margin: 98px 0 326px 0;
+		aspect-ratio: 375 / 600;
+	}
+
+    .middle-content .background-pattern {
+        margin: 98px 12.53% 506px 12.8%;
+        width: 78.67%;
+    }
+
+	.middle-content .illustration-app {
+		width: 55.73%;
+        margin: 0;
+	}
+
+	.middle-content .card {
+		margin: 0;
+        padding: 48px 9.87% 48px 9.6%;
+		width: 100%;
+	}
+
+	footer {
+        margin: 0 3.14% 80px 3.14%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    footer .footer-links {
+        margin: 0;
+        align-self: unset;
+    } 
+}
