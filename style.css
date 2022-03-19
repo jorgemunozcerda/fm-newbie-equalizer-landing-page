@@ -152,7 +152,17 @@ main {
     margin-bottom: 32px;
 }
 
-.middle-content .card .price .body1 span {
+.middle-content .card .body1 {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.middle-content .card .price .per-time {
+    /* text-align: start; */
+}
+
+.middle-content .card .price .body1 .amount {
     font-weight: 700;
     font-size: 65px;
     line-height: 52px;
@@ -265,6 +275,29 @@ footer .footer-links a .social-logo:hover {
 
     .intro-description .body1 {
         width: 98.84%
+    }
+
+    .middle-content {
+        gap: 0;
+    }
+
+    .middle-content .middle-background {
+        margin: 138px 0 96px 0;
+    }
+
+    .middle-content .illustration-app {
+        margin-left: 64px;
+        width: 38.82%;
+    }
+
+    .middle-content .card {
+        margin: 288px 0 0 -13.68%;
+        width: 57.33%;
+    }
+
+    .middle-content .card .price .body1 {
+        font-size: 20px;
+        line-height: 32px;
     }
 }
 /* Change at 1200px */
