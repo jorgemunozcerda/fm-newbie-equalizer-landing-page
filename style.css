@@ -1,0 +1,270 @@
+:root {
+	--blue: #66e2dc;
+	--orange: #fa7453;
+	--yellow: #ffb964;
+	--white: #fcfaf9;
+	--black: #191826;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 62px 11.58% 91px 11.58%;
+	display: flex;
+	flex-direction: column;
+	gap: 87px;
+	font-family: 'IBM Plex Sans';
+	color: var(--black);
+}
+
+h1 {
+	font-size: 88px;
+	line-height: 88px;
+	letter-spacing: -1px;
+	font-weight: 700;
+    z-index: 1;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 52px;
+	font-weight: 700;
+}
+
+.body1 {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 34px;
+    z-index: 1;
+}
+
+.body2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.background-container {
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 1832px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    pointer-events: none;
+}
+
+.background-container .background-picture img {
+    z-index: 0;
+    width: 113.27%;
+    position: absolute;
+    top: -146px;
+    left: -112px;
+}
+
+.background-container .background-pattern {
+    margin: 0;
+    width: 21.66%;
+    margin-top: -40px;
+    z-index: 0;
+}
+
+main {
+    margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 108px;
+}
+
+.intro-description {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.intro-description .body1 {
+	width: 75.4%;
+}
+
+.middle-content {
+	display: flex;
+	gap: 14%;
+    position: relative;
+}
+
+.middle-content .middle-background {
+    position: absolute;
+    background-color: var(--black);
+    width: 100%;
+    aspect-ratio: 111/60;
+    z-index: 1;
+    margin: 213px 0 115px 0;
+}
+
+.background-pattern {
+    position: absolute;
+    z-index: 2;
+    margin: 173px 42.22% 172px 30.7%;
+    width: 28.51%;
+}
+
+.middle-content .illustration-app {
+	margin-left: 102px;
+    width: 28.52%;
+    z-index: 3;
+}
+
+.middle-content .illustration-app img {
+	width: 100%;
+}
+
+.middle-content .card {
+    width: 40.75%;
+    aspect-ratio: 625/446;
+    margin-top: 303px;
+    padding: 58px 5.39% 48px 4.95%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 12px;
+    background-color: var(--orange);
+    color: var(--white);
+    z-index: 3;
+}
+
+.middle-content .card .card-title {
+    margin-bottom: 6px;
+}
+
+.middle-content .card .card-description {
+    margin-bottom: 21px;
+}
+
+.middle-content .card .price {
+    margin-bottom: 32px;
+}
+
+.middle-content .card .price .body1 span {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+}
+
+button {
+    border-radius: 12px;
+    width: 100%;
+    aspect-ratio: 333 / 61;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border: 0;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ios-button {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.ios-button:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+}
+
+.adroid-button {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.adroid-button:hover {
+    cursor: pointer;
+    background-color: var(--yellow);
+}
+
+footer {
+    display: flex;
+    gap: 0;
+}
+
+footer .footer-info {
+    margin-left: 12.6%;
+    width: 33%;
+}
+
+footer .footer-info .body2 span {
+    font-weight: 700;
+}
+
+footer .footer-links {
+    margin-left: 32.53%;
+    align-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+footer .footer-links a {
+    height: 20px;
+}
+
+footer .footer-links a .social-logo {
+    fill: var(--black);
+}
+
+footer .footer-links a .social-logo:hover {
+    fill: var(--yellow);
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        margin: 62px 5.07% 85px 4.29%;
+        gap: 87px;
+    }
+
+    .background-container .background-pattern {
+        width: 34.72%;
+        margin-top: -32px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .body1 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    main {
+        margin-top: 8px;
+        gap: 111px;
+    }
+
+    .intro-description {
+        width: 76.32%;
+        gap: 28px;
+    }
+
+    .intro-description .body1 {
+        width: 98.84%
+    }
+}
+/* Change at 1200px */
